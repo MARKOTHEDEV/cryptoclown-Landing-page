@@ -1,0 +1,59 @@
+
+.pricing_container{
+
+
+    background: rgba( 42, 48, 59, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.pricing_container h4{
+    font-size: 2rem;
+}
+
+.pricing_container button.btn{
+    background-color: #7954ff;
+    color: white;
+}
+.floating-whatapp{
+    font-size: 5rem;
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    cursor: pointer;
+}
+
+.floating-whatapp i{
+    color: greenyellow;
+}
+
+
+
+
+
+@media screen and (min-width:766px) {
+    .pricing_container{
+        text-align: center;
+        width: 50%;
+    padding: 3rem 1rem;
+
+        
+    }   
+    
+    
+.pricing_container h4{
+    font-size: 3rem;
+}
+
+}
+
+
+
+
+
